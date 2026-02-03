@@ -3,7 +3,6 @@
 num = int(input("Please enter change for product: "))
 
 x = 75 
-num = int(input("Please enter change for product: "))
 def change(num):
     if num == 50:
         print("Change accepted, amount due is: ", x - num)
@@ -29,7 +28,7 @@ def main():
     num = int(input("Please enter change for product: "))
     change(num)
     change(num2)
-    
+    num2 = int(input("Please enter change for product: "))
 
 main()
 
